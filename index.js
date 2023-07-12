@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const jwt = require('jsonwebtoken');
-const dDbConnectb = require('../fastorapi/src/config/DbConnect');
+const DbConnect= require('../fastorapi/src/config/DbConnect');
 const routes = require('../fastorapi/src/router/fastor.router');
 
 const app = express();

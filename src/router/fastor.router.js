@@ -1,7 +1,7 @@
 const express = require('express');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const { Employee, Enquiry } = require('../model/f.model');
+const { Employee, Enquiry } = require('../model/fastor.model');
 const fastor = express.Router();
 
 fastor.post('/register', async (req, res) => {
